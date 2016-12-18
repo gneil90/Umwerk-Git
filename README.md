@@ -16,15 +16,20 @@ To share the data across the extensions and containing app, I have set up AppGro
 ###### Classes:
 
 __GitHubService__ - executes all github related requests in background
+
 __UWKAppGroupsManager__ - reads/writes from userdefaultssuite to share data between extensions and app
+
 __IconDownloader__ -  Helper object for managing the downloading of a particular app's icon.
   It uses NSURLSession/NSURLSessionDataTask to download the app's icon in the background if it does not
   yet exist and works in conjunction with the RootViewController to manage which apps need their icon.
 __GitHubUser__ - subclass of [JSONModel](https://github.com/jsonmodel/jsonmodel) allows rapidly to parse JSON input into class.
+
 __GitHubRequest__ - constructing url-request to github-api, automatically signs every request with client_id and client_secret.
+
 __UWKMobileClient__ - configures third-party services, theme styles, from application delegate with options.
 
 __UWKUserListViewController__ - view controller to show list of java language users 
+
 __UWKUserViewController__ - view controller to show details of particular user
 
 ###### Preprocessor Flags:
