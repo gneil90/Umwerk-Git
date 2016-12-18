@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; selectedTitle = "EMAIL IS UNDEFINED"; ObjectID = "LUo-xa-6Cw"; */
+"LUo-xa-6Cw.selectedTitle" = "EMAIL IS UNDEFINED";
+
+/* Class = "UIButton"; normalTitle = "FAILED. PRESS TO RETRY"; ObjectID = "TtH-2a-XN0"; */
+"TtH-2a-XN0.normalTitle" = "FAILED. PRESS TO RETRY";
+
+/* Class = "UILabel"; text = "LOGIN"; ObjectID = "alZ-oN-YU8"; */
+"alZ-oN-YU8.text" = "LOGIN";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hXZ-JZ-lEV"; */
+"hXZ-JZ-lEV.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Users"; ObjectID = "iwf-8G-ldX"; */
+"iwf-8G-ldX.title" = "Users";
