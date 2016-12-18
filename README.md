@@ -34,11 +34,11 @@ __UWKUserViewController__ - view controller to show details of particular user
 
 ###### Preprocessor Flags:
 
-UWK_BLUE - defined only for Umwerk-git-blue target, allows to use #ifdef 
+__UWK_BLUE__ - defined only for Umwerk-git-blue target, allows to use #ifdef 
 
 ###### Categories:
 
-UIColor+UWKTheme - contains all theme related colors
+__UIColor+UWKTheme__ - contains all theme related colors
 
 
 ### Demo
