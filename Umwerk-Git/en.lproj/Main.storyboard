@@ -3,7 +3,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,33 +15,33 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YlU-aL-zlV">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="ApI-YV-Ka0">
-                                    <rect key="frame" x="0.0" y="78" width="414" height="44"/>
+                                    <rect key="frame" x="0.0" y="78" width="1024" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="hXZ-JZ-lEV" imageView="nUG-a3-dif" rowHeight="50" style="IBUITableViewCellStyleDefault" id="weM-BG-hSv">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                        <rect key="frame" x="0.0" y="28" width="1024" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="weM-BG-hSv" id="GHs-97-3OB">
-                                            <frame key="frameInset" width="414" height="49.666666666666664"/>
+                                            <frame key="frameInset" width="1024" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hXZ-JZ-lEV">
-                                                    <frame key="frameInset" minX="80" width="319" height="49.666666666666664"/>
+                                                    <frame key="frameInset" minX="240" width="608" height="49"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="placeholder" id="nUG-a3-dif">
-                                                    <frame key="frameInset" minX="15" width="50" height="49.666666666666664"/>
+                                                    <frame key="frameInset" minX="176" width="49" height="49"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -106,7 +105,7 @@
                         <viewControllerLayoutGuide type="bottom" id="0ey-50-2IR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="noB-H4-3Zj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Xfg-BH-bfP">
@@ -176,14 +175,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="i2L-5K-Opk" firstAttribute="top" secondItem="EbC-Ay-jsE" secondAttribute="bottom" constant="20" id="EGl-Wr-INd"/>
                             <constraint firstItem="i1s-yz-b6L" firstAttribute="centerY" secondItem="i2L-5K-Opk" secondAttribute="centerY" id="FaM-OB-w51"/>
-                            <constraint firstItem="i2L-5K-Opk" firstAttribute="leading" secondItem="noB-H4-3Zj" secondAttribute="leadingMargin" constant="5" id="H6A-dd-W3Z"/>
                             <constraint firstItem="fUw-za-UzB" firstAttribute="top" secondItem="noB-H4-3Zj" secondAttribute="top" constant="15" id="InA-u0-6Ug"/>
                             <constraint firstItem="CXC-Vf-zOV" firstAttribute="centerX" secondItem="alZ-oN-YU8" secondAttribute="centerX" id="Iq7-hV-aCn"/>
                             <constraint firstItem="alZ-oN-YU8" firstAttribute="top" secondItem="Xfg-BH-bfP" secondAttribute="bottom" constant="15" id="KRa-iR-rge"/>
+                            <constraint firstAttribute="trailing" secondItem="i2L-5K-Opk" secondAttribute="trailing" constant="5" id="Lkd-Vg-o8x"/>
                             <constraint firstItem="CXC-Vf-zOV" firstAttribute="top" secondItem="alZ-oN-YU8" secondAttribute="bottom" constant="15" id="V1f-xx-aay"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="i2L-5K-Opk" secondAttribute="trailing" constant="20" id="YNe-9X-Oiz"/>
                             <constraint firstItem="alZ-oN-YU8" firstAttribute="centerX" secondItem="Xfg-BH-bfP" secondAttribute="centerX" id="aky-x8-HsE"/>
                             <constraint firstItem="Nir-Ou-OtE" firstAttribute="top" secondItem="LUo-xa-6Cw" secondAttribute="bottom" constant="8" id="cU3-hI-efO"/>
                             <constraint firstItem="fUw-za-UzB" firstAttribute="leading" secondItem="noB-H4-3Zj" secondAttribute="leading" constant="15" id="dMY-Y1-uC3"/>
@@ -194,19 +191,17 @@
                             <constraint firstItem="i2L-5K-Opk" firstAttribute="leading" secondItem="i1s-yz-b6L" secondAttribute="trailing" constant="2" id="sd2-1Q-3rD"/>
                             <constraint firstItem="LUo-xa-6Cw" firstAttribute="centerY" secondItem="CXC-Vf-zOV" secondAttribute="centerY" id="tXL-As-hvr"/>
                             <constraint firstItem="Xfg-BH-bfP" firstAttribute="top" secondItem="EbC-Ay-jsE" secondAttribute="bottom" constant="12" id="v37-kz-U2B"/>
+                            <constraint firstItem="i2L-5K-Opk" firstAttribute="leading" secondItem="noB-H4-3Zj" secondAttribute="leading" constant="50" id="xzR-Yd-tdX"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="EGl-Wr-INd"/>
-                                <exclude reference="YNe-9X-Oiz"/>
+                                <exclude reference="xzR-Yd-tdX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="EGl-Wr-INd"/>
-                                <exclude reference="H6A-dd-W3Z"/>
-                                <include reference="YNe-9X-Oiz"/>
-                                <exclude reference="m4f-Sg-T0G"/>
+                                <exclude reference="Lkd-Vg-o8x"/>
+                                <include reference="xzR-Yd-tdX"/>
                             </mask>
                         </variation>
                     </view>

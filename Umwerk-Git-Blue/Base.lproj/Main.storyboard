@@ -3,14 +3,13 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Users-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="UWKUserListViewController" customModule="Umwerk_Git" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="UWKUserListViewController" customModule="Umwerk_Git_Blue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -100,7 +99,7 @@
         <!--User View Controller-->
         <scene sceneID="avA-zp-s1G">
             <objects>
-                <viewController storyboardIdentifier="UWKUserViewController" id="wlG-YD-2mB" customClass="UWKUserViewController" customModule="Umwerk_Git" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UWKUserViewController" id="wlG-YD-2mB" customClass="UWKUserViewController" customModule="Umwerk_Git_Blue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EbC-Ay-jsE"/>
                         <viewControllerLayoutGuide type="bottom" id="0ey-50-2IR"/>
@@ -176,14 +175,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="i2L-5K-Opk" firstAttribute="top" secondItem="EbC-Ay-jsE" secondAttribute="bottom" constant="20" id="EGl-Wr-INd"/>
                             <constraint firstItem="i1s-yz-b6L" firstAttribute="centerY" secondItem="i2L-5K-Opk" secondAttribute="centerY" id="FaM-OB-w51"/>
-                            <constraint firstItem="i2L-5K-Opk" firstAttribute="leading" secondItem="noB-H4-3Zj" secondAttribute="leadingMargin" constant="5" id="H6A-dd-W3Z"/>
                             <constraint firstItem="fUw-za-UzB" firstAttribute="top" secondItem="noB-H4-3Zj" secondAttribute="top" constant="15" id="InA-u0-6Ug"/>
                             <constraint firstItem="CXC-Vf-zOV" firstAttribute="centerX" secondItem="alZ-oN-YU8" secondAttribute="centerX" id="Iq7-hV-aCn"/>
                             <constraint firstItem="alZ-oN-YU8" firstAttribute="top" secondItem="Xfg-BH-bfP" secondAttribute="bottom" constant="15" id="KRa-iR-rge"/>
+                            <constraint firstAttribute="trailing" secondItem="i2L-5K-Opk" secondAttribute="trailing" constant="5" id="Lkd-Vg-o8x"/>
                             <constraint firstItem="CXC-Vf-zOV" firstAttribute="top" secondItem="alZ-oN-YU8" secondAttribute="bottom" constant="15" id="V1f-xx-aay"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="i2L-5K-Opk" secondAttribute="trailing" constant="20" id="YNe-9X-Oiz"/>
                             <constraint firstItem="alZ-oN-YU8" firstAttribute="centerX" secondItem="Xfg-BH-bfP" secondAttribute="centerX" id="aky-x8-HsE"/>
                             <constraint firstItem="Nir-Ou-OtE" firstAttribute="top" secondItem="LUo-xa-6Cw" secondAttribute="bottom" constant="8" id="cU3-hI-efO"/>
                             <constraint firstItem="fUw-za-UzB" firstAttribute="leading" secondItem="noB-H4-3Zj" secondAttribute="leading" constant="15" id="dMY-Y1-uC3"/>
@@ -194,19 +191,17 @@
                             <constraint firstItem="i2L-5K-Opk" firstAttribute="leading" secondItem="i1s-yz-b6L" secondAttribute="trailing" constant="2" id="sd2-1Q-3rD"/>
                             <constraint firstItem="LUo-xa-6Cw" firstAttribute="centerY" secondItem="CXC-Vf-zOV" secondAttribute="centerY" id="tXL-As-hvr"/>
                             <constraint firstItem="Xfg-BH-bfP" firstAttribute="top" secondItem="EbC-Ay-jsE" secondAttribute="bottom" constant="12" id="v37-kz-U2B"/>
+                            <constraint firstItem="i2L-5K-Opk" firstAttribute="leading" secondItem="noB-H4-3Zj" secondAttribute="leading" constant="50" id="xzR-Yd-tdX"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="EGl-Wr-INd"/>
-                                <exclude reference="YNe-9X-Oiz"/>
+                                <exclude reference="xzR-Yd-tdX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="EGl-Wr-INd"/>
-                                <exclude reference="H6A-dd-W3Z"/>
-                                <include reference="YNe-9X-Oiz"/>
-                                <exclude reference="m4f-Sg-T0G"/>
+                                <exclude reference="Lkd-Vg-o8x"/>
+                                <include reference="xzR-Yd-tdX"/>
                             </mask>
                         </variation>
                     </view>
