@@ -41,6 +41,10 @@ __UWK_BLUE__ - defined only for Umwerk-git-blue target, allows to use #ifdef
 __UIColor+UWKTheme__ - contains all theme related colors
 
 
-### Demo
+### Demo:
 
 ![Alt Text](https://github.com/gneil90/Umwerk-Git/blob/master/Umwerk-Git/Preview/ezgif.com-optimize.gif)
+![Alt Text](https://github.com/gneil90/Umwerk-Git/blob/master/Umwerk-Git/Preview/email.gif)
+![Alt Text](https://github.com/gneil90/Umwerk-Git/blob/master/Umwerk-Git/Preview/widget.gif)
+![Alt Text](https://github.com/gneil90/Umwerk-Git/blob/master/Umwerk-Git/Preview/black_background.gif)
+
