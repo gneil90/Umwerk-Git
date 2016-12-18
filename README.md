@@ -22,6 +22,7 @@ __UWKAppGroupsManager__ - reads/writes from userdefaultssuite to share data betw
 __IconDownloader__ -  Helper object for managing the downloading of a particular app's icon.
   It uses NSURLSession/NSURLSessionDataTask to download the app's icon in the background if it does not
   yet exist and works in conjunction with the RootViewController to manage which apps need their icon.
+  
 __GitHubUser__ - subclass of [JSONModel](https://github.com/jsonmodel/jsonmodel) allows rapidly to parse JSON input into class.
 
 __GitHubRequest__ - constructing url-request to github-api, automatically signs every request with client_id and client_secret.
