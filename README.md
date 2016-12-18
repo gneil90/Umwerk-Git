@@ -1,7 +1,7 @@
 ### Task:
 Show a list of all Java developers from Github, two targets with different background, today extension.
 
-### Intro:
+### Prerequisite:
 Project uses CocoaPods dependency manager, please, run pod install command in your terminal and open .xcworkspace file.
 If you do not have CocoaPods installed on your machine, please, use following [their getting start guide](https://guides.cocoapods.org/using/getting-started.html). Deployment target: iOS > 9.0
 In order to prove the knowledge in Objective-C && Swift, I interoperate these two languages in project. 
