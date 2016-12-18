@@ -248,7 +248,6 @@ class UWKUserListViewController: UWKViewController, UITableViewDelegate, UITable
   
   func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
     loadImagesForOnscreenRows()
-    loadNextPage()
   }
   
   //MARK: - IBAction
